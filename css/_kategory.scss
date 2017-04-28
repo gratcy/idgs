@@ -1,0 +1,138 @@
+.kategory {
+
+    //----------HEADING-CAT----------//
+    .heading-cat {
+        .name-cat {
+            h3 {
+                color: #fff;
+                margin: 0px;
+                padding: 3px 0px;
+            }
+        }
+        .favorite {
+            button {
+                i {
+                    color: #fff;
+                }
+                background-color: transparent;
+            }
+            button:hover {
+                i {
+                    color: $cream;
+                }
+            }
+        }
+        height: 50px;
+        background-color: $black;
+        padding: 10px 15px;
+        margin-bottom: 10px;
+    }
+
+    //----------CONTENT-CAT----------//
+    .content-cat {
+        //----------CONTENT-LEFT----------//
+        .content-left {
+            .wr-content-left {
+                background-color: #fff;
+            }
+            .wr-content-left:hover {
+                box-shadow: $shadow-artikel;
+            }
+            .artikel {
+                .image {
+                    img {
+                        height: 170px;
+                    }
+                    padding-left: 0px;
+                    padding-right: 5px;
+                }
+                .title {
+                    a:hover {
+                        text-decoration: none;
+                        text-shadow: $shadow-text;
+                    }
+                    h3 {
+                        margin-top: 0px;
+                        color: $black;
+                    }
+                    span {
+                        color: $grey;
+                        font-size: 12px;
+                    }
+                    p {
+                        color: $black;
+                    }
+                    padding-right: 0px;
+                    padding-left: 5px;
+                }
+                padding: 10px 15px;
+                border-bottom: 3px dotted $cream;
+                margin-bottom: 10px;
+            }
+            padding-left: 0px;
+            padding-right: 5px;
+        }
+        //----------CONTENT-RIGHT----------//
+        .content-right {
+            #sidebar-1, #sidebar-2, #sidebar-3, #sidebar-4 {
+                border-top: 5px solid $grey;
+            }
+            .sidebar-adv:hover, .artikel:hover {
+                box-shadow: $shadow-artikel;
+            }
+            .sidebar-adv {
+                .wrapper-adv {
+                    img {
+                        width: 313.333px;
+                        height: 156.667px;
+                    }
+                    .title-adv {
+                        padding: 0px 10px;
+                    }
+                    .heading-adv {
+                        a:hover {
+                            text-decoration: none;
+                            text-shadow: $shadow-text;
+                        }
+                        h3 {
+                            margin: 0px;
+                            color: $black;
+                        }
+                        margin: 20px 0px;
+                    }
+                    .footer-adv {
+                        p {
+                            color: $grey;
+                        }
+                    }
+                }
+                margin-bottom: 10px;
+                background-color: #fff;
+            }
+
+            .artikel {
+                .title-artikel {
+                    .heading-artikel {
+                        a:hover {
+                            text-decoration: none;
+                            text-shadow: $shadow-text;
+                        }
+                        h3 {
+                            margin: 0px;
+                            color: $black;
+                        }
+                        margin: 20px 0px;
+                    }
+                    .footer-artikel {
+                        color: $grey;
+                    }
+                        padding: 0px 10px;
+                }
+                background-color: #fff;
+                margin-bottom: 10px;
+            }
+            padding-right: 0px;
+            padding-left: 5px;
+        }
+    }
+}

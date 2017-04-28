@@ -1,0 +1,1070 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Indogamers</title>
+
+    <!-- CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+
+    <!-- js untuk jssor slider -->
+    <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <script src="js/jssor.slider-23.0.0.mini.js" type="text/javascript"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="header-menu">
+      <div class="menu container">
+        <ul class="nav nav-pills nav-custom">
+          <li role="presentation" class="dropdown list-menu" id="menu-idgs">
+            <a href="#"> <i class="fa fa-home"></i>
+              IDGS <span class="caret"></span></a>
+            <ul class="dropdown-menu" id="idgs">
+              <li><a href="#">NEWS</a></li>
+              <li><a href="#">VIDEO</a></li>
+              <li><a href="#">IMAGE</a></li>
+              <li><a href="#">DOWNLOAD</a></li>
+            </ul>
+          </li>
+          <li role="presentation" class="dropdown list-menu" id="menu-forum">
+            <a href="#"><i class="fa fa-commenting-o"></i> 
+              FORUM <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu" id="forum">
+              <li><a href="#">MARKET</a></li>
+              <li><a href="#">VGAMES</a></li>
+              <li><a href="#">GROUPS</a></li>
+              <li><a href="#">FORMS</a></li>
+              <li><a href="#">F.A.Q</a></li>
+            </ul>
+          </li>
+          <li role="presentation" class="dropdown list-menu" id="menu-games">
+            <a href="#"><i class="fa fa-gamepad"></i>
+               GAMES <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu" id="games">
+              <li><a href="#">DOTA IDGS</a></li>
+              <li><a href="#">WOW IDGS</a></li>
+              <li><a href="#">AION IDGS</a></li>
+              <li><a href="#">WEB GAMES</a></li>
+            </ul>
+          </li>
+          <li role="presentation" class="list-menu active"><a href="#">STORE</a></li>
+          <li role="presentation" class="list-menu"><a href="#">SITE INDEX</a></li>
+          <li role="presentation" class="list-menu"><a href="#">REPORT</a></li>
+          <li role="presentation" class="list-menu"><a href="#">TV</a></li>
+          <li role="presentation" class="list-menu"><a href="#">IMAGES UPLOADER</a></li>
+          <li role="presentation" class="list-menu"><a href="#">RADIO</a></li>
+          <li role="presentation" class="list-menu"><a href="#">RSS</a></li>
+          <li role="presentation" class="list-menu"><a href="#">IRC</a></li>
+          <li role="presentation" class="list-menu"><a href="#">POKEMAP</a></li>
+        </ul><!--END OF .NAV-CUSTOM-->
+      </div><!--END OF .MENU-->
+    </div><!--END OF .HEADER-MENU-->
+
+    <div class="body-content container">
+      <div class="col-md-1 col-sm-1 leftside">
+        <div id="leftside">
+          <img src="http://www.indogamers.com/assets/images/120X600.png">
+        </div>
+      </div><!--END OF .LEFTSIDE-->
+
+      <div class="col-md-10 col-sm-10 midside">
+        <div id="midside">
+          <div class="header-content">
+            <div class=" header-wrapper container">
+              <div class="logo">
+                <a href="#"> <img src="images/logo.png"></a>
+              </div>
+              <div class="adv">
+                <img src="http://forum.indogamers.com/images/728X90.png">
+              </div>
+            </div><!--END OF .HEADER-WRAPPER-->
+          </div><!--END OF .HEADER-CONTENT-->
+
+          <div class="cat-menu sticky" id="cat-menu">
+              <ul class="nav nav-pills nav-custom">
+                <li role="presentation" class="list-menu active"><a href="#">News</a></li>
+                <li role="presentation" class="list-menu"><a href="#">eSports</a></li>
+                <li role="presentation" class="list-menu"><a href="#">Console</a></li>
+                <li role="presentation" class="list-menu"><a href="#">PC</a></li>
+                <li role="presentation" class="list-menu"><a href="#">Mobile Games</a></li>
+                <li role="presentation" class="list-menu"><a href="#">Gadget</a></li>
+                <li role="presentation" class="list-menu"><a href="#">Video</a></li>
+                <li role="presentation" class="list-menu"><a href="#">Images</a></li>
+                <li role="presentation" class="list-menu"><a href="#">Comic</a></li>
+                <li role="presentation" class="list-menu"><a href="#">Download</a></li>
+              </ul>
+          </div><!--END OF .CAT-MENU-->
+
+          <!-- <div class="center-adv">
+            <img src="http://forum.indogamers.com/images/728X90.png">
+          </div>
+ -->
+          <div id="jssor_1" style="position:relative;top:0px;left:0px;width:810px;height:300px;overflow:hidden;visibility:hidden;background-color:#000000;">
+              <!-- Loading Screen -->
+              <div data-u="loading" style="position:absolute;top:0px;left:0px;background-color:rgba(0,0,0,0.7);">
+                  <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+                  <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+              </div>
+              <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:600px;height:300px;overflow:hidden;">
+                  <a data-u="any" href="http://www.jssor.com" style="display:none">List Slider</a>
+                  <div>
+                      <img data-u="image" src="images/002.jpg" />
+                      <div data-u="thumb">
+                          <img class="i" src="images/thumb-002.jpg" />
+                          <div class="t">Banner Rotator</div>
+                          <div class="c">360+ touch swipe slideshow effects</div>
+                      </div>
+                  </div>
+                  <div>
+                      <img data-u="image" src="images/003.jpg" />
+                      <div data-u="thumb">
+                          <img class="i" src="images/thumb-003.jpg" />
+                          <div class="t">Image Gallery</div>
+                          <div class="c">Image gallery with thumbnail navigation</div>
+                      </div>
+                  </div>
+                  <div>
+                      <img data-u="image" src="images/004.jpg" />
+                      <div data-u="thumb">
+                          <img class="i" src="images/thumb-004.jpg" />
+                          <div class="t">Carousel</div>
+                          <div class="c">Touch swipe, mobile device optimized</div>
+                      </div>
+                  </div>
+                  <div>
+                      <img data-u="image" src="images/005.jpg" />
+                      <div data-u="thumb">
+                          <img class="i" src="images/thumb-005.jpg" />
+                          <div class="t">Themes</div>
+                          <div class="c">30+ professional themems + growing</div>
+                      </div>
+                  </div>
+                  <div>
+                      <img data-u="image" src="images/006.jpg" />
+                      <div data-u="thumb">
+                          <img class="i" src="images/thumb-006.jpg" />
+                          <div class="t">Tab Slider</div>
+                          <div class="c">Tab slider with auto play options</div>
+                      </div>
+                  </div>
+              </div>
+              <!-- Thumbnail Navigator -->
+              <div data-u="thumbnavigator" class="jssort11" style="position:absolute;right:5px;top:0px;font-family:Arial, Helvetica, sans-serif;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;user-select:none;width:200px;height:300px;" data-autocenter="2">
+                  <!-- Thumbnail Item Skin Begin -->
+                  <div data-u="slides" style="cursor: default;">
+                      <div data-u="prototype" class="p">
+                          <div data-u="thumbnailtemplate" class="tp"></div>
+                      </div>
+                  </div>
+                  <!-- Thumbnail Item Skin End -->
+              </div>
+              <!-- Arrow Navigator -->
+              <span data-u="arrowleft" class="jssora02l" style="top:0px;left:8px;width:55px;height:55px;" data-autocenter="2"></span>
+              <span data-u="arrowright" class="jssora02r" style="top:0px;right:218px;width:55px;height:55px;" data-autocenter="2"></span>
+          </div>
+          <!-- #endregion Jssor Slider End -->
+
+          <div class="content-1">
+            <div class="content-1-artikel col-md-8 col-sm-8">
+              <div class="artikel-top">
+                <div class="wrapper-artikel-left col-md-6 col-sm-6">
+                  <div class="artikel" id="artikel-1">
+                    <img class="img-responsive" src="images/002.jpg">
+                    <div class="title-artikel">
+                      <div class="heading-artikel">
+                        <a href="#"><h3>Lorem Ipsum is simply dummy text of the printing</h3></a>
+                      </div>
+                      <div class="footer-artikel">
+                        <div class="time pull-left">
+                          <p><i class="fa fa-clock-o" aria-hidden="true"></i> 40m ago</p>
+                        </div>
+                        <div class="cat pull-right">
+                          <p>News</p>
+                        </div>
+                        <div class="clearfix"></div>
+                      </div><!--END OF .FOOTER-ARTIKEL-->
+                    </div><!--END OF .TITLE-ARTIKEL-->
+                  </div><!--END OF .ARTIKEL-->
+                </div><!--END OF .WRAPPER-ARTIKEL-LEFT-->
+                <div class="wrapper-artikel-right col-md-6 col-sm-6">
+                  <div class="artikel" id="artikel-2">
+                    <img class="img-responsive" src="images/003.jpg">
+                    <div class="title-artikel">
+                      <div class="heading-artikel">
+                        <a href="#"><h3>Lorem Ipsum is simply dummy text of the printing</h3></a>
+                      </div>
+                      <div class="footer-artikel">
+                        <div class="time pull-left">
+                          <p><i class="fa fa-clock-o" aria-hidden="true"></i> 1h ago</p>
+                        </div>
+                        <div class="cat pull-right">
+                          <p>Artikel</p>
+                        </div>
+                        <div class="clearfix"></div>
+                      </div><!--END OF .FOOTER-ARTIKEL-->
+                    </div><!--END OF .TITLE-ARTIKEL-->
+                  </div><!--END OF .ARTIKEL-->
+                </div><!--END OF .WRAPPER-ARTIKEL-RIGHT-->
+                <div class="clearfix"></div>
+              </div><!--END OF .ARTIKEL-TOP-->
+              
+              <div class="artikel-bot">
+                <div class="wrapper-artikel-left col-md-6 col-sm-6">
+                  <div class="artikel" id="artikel-3">
+                    <img class="img-responsive" src="images/004.jpg">
+                    <div class="title-artikel">
+                      <div class="heading-artikel">
+                        <a href="#"><h3>Lorem Ipsum is simply dummy text of the printing</h3></a>
+                      </div>
+                      <div class="footer-artikel">
+                        <div class="time pull-left">
+                          <p><i class="fa fa-clock-o" aria-hidden="true"></i> 1h20m ago</p>
+                        </div>
+                        <div class="cat pull-right">
+                          <p>Artikel</p>
+                        </div>
+                        <div class="clearfix"></div>
+                      </div><!--END OF .FOOTER-ARTIKEL-->
+                    </div><!--END OF .TITLE-ARTIKEL-->
+                  </div><!--END OF .ARTIKEL-->
+                </div><!--END OF .WRAPPER-ARTIKEL-LEFT-->
+                <div class="wrapper-artikel-right col-md-6 col-sm-6">
+                  <div class="artikel" id="artikel-4">
+                    <img class="img-responsive" src="images/005.jpg">
+                    <div class="title-artikel">
+                      <div class="heading-artikel">
+                        <a href="#"><h3>Lorem Ipsum is simply dummy text of the printing</h3></a>
+                      </div>
+                      <div class="footer-artikel">
+                        <div class="time pull-left">
+                          <p><i class="fa fa-clock-o" aria-hidden="true"></i> 3h ago</p>
+                        </div>
+                        <div class="cat pull-right">
+                          <p>Opini</p>
+                        </div>
+                        <div class="clearfix"></div>
+                      </div><!--END OF .FOOTER-ARTIKEL-->
+                    </div> <!--END OF .TITLE-ARTIKEL-->
+                  </div><!--END OF .ARTIKEL-->
+                </div><!--END OF .WRAPPER-ARTIKEL-RIGHT-->
+                <div class="clearfix"></div>
+              </div><!--END OF .ARTIKEL-BOT-->
+            </div><!--END OF .CONTENT-1-ARTIKEL-->
+
+            <div class="content-1-sidebar col-md-4 col-sm-4">
+              <div class="sidebar-adv">
+                <div class="wrapper-adv">
+                  <img src="//www.indogamers.com/assets/images/300X300.png">
+                  <div class="title-adv">
+                    <div class="heading-adv">
+                      <a href="#"><h3>Lorem Ipsum is simply dummy text of the printing</h3></a>
+                    </div>
+                    <div class="footer-adv text-center">
+                      <p>Ad</p>
+                      <div class="clearfix"></div>
+                    </div><!--END OF .FOOTER-ADV-->
+                  </div><!--END OF .TITLE-ADV-->
+                </div><!--END OF .WRAPPER-ADV-->
+              </div><!--END OF .SIDEBAR-ADV-->
+
+              <div class="sidebar-topik-pilihan">
+                <div class="wrapper-topik">
+                  <img class="img-responsive" src="images/002.jpg">
+                  <div class="title-topik">
+                    <div class="heading-topik">
+                      <a href="#"><h3>Sidebar Topik Pilihan</h3></a>
+                    </div>
+                    <div class="footer-topik">
+                      <div class="time pull-left">
+                        <p><i class="fa fa-clock-o" aria-hidden="true"></i> 40m ago</p>
+                      </div>
+                      <div class="cat pull-right">
+                        <p><i class="fa fa-newspaper-o" aria-hidden="true"></i> News</p>
+                      </div>
+                      <div class="clearfix"></div>
+                    </div><!--END OF .FOOTER-TOPIK-->
+                  </div><!--END OF .TITLE-TOPIK-->
+                </div><!--END OF .WRAPPER-TOPIK-->
+              </div><!--END OF .SIDEBAR-TOPIK-PILIHAN-->
+            </div><!--END OF .CONTENT-1-SIDEBAR-->
+            <div class="clearfix"></div>
+          </div><!--END OF .CONTENT-1-->
+
+          <div class="content-2">
+            <div class="wrapper-adv-left col-md-6 col-sm-6">
+              <div class="adv">
+                <img src="//www.indogamers.com/assets/images/468X60.png">
+              </div>
+            </div><!--END OF .WRAPPER-ADV-LEFT-->
+            <div class="wrapper-adv-right col-md-6 col-sm-6">
+              <div class="adv">
+                <img src="//www.indogamers.com/assets/images/468X60.png">
+              </div>
+            </div><!--END OF .WRAPPER-ADV-RIGHT-->
+            <div class="clearfix"></div>
+          </div><!--END OF .CONTENT-2-->
+
+          <div class="content-3">
+            <div class="content-3-sidebar col-md-4 col-sm-4">
+              <div class="sidebar-latest-post">
+                <div class="wrapper-latest-post">
+                  <img class="img-responsive" src="images/003.jpg">
+                  <div class="title-latest-post">
+                    <div class="heading-latest-post">
+                      <a href="#"><h3>Latest Post Forum Indogamers</h3></a>
+                    </div>
+                    <div class="footer-latest-post">
+                      <div class="time pull-left">
+                        <p><i class="fa fa-clock-o" aria-hidden="true"></i> 5h ago</p>
+                      </div>
+                      <div class="cat pull-right">
+                        <p><i class="fa fa-gamepad" aria-hidden="true"></i> Mobile Games</p>
+                      </div>
+                      <div class="clearfix"></div>
+                    </div><!--END OF .FOOTER-LATEST-POST-->
+                  </div><!--END OF .TITLE-LATEST-POST-->
+                </div><!--END OF .WRAPPER-LATEST-POST-->
+              </div><!--END OF .SIDEBAR-LATEST-POST-->
+
+              <div class="sidebar-most-popular">
+                <div class="wrapper-most-popular">
+                  <img class="img-responsive" src="images/005.jpg">
+                  <div class="title-most-popular">
+                    <div class="heading-most-popular">
+                      <a href="#"><h3>Most Popular (View Terbanyak)</h3></a>
+                    </div>
+                    <div class="footer-most-popular">
+                      <div class="time pull-left">
+                        <p><i class="fa fa-clock-o" aria-hidden="true"></i> 1day ago</p>
+                      </div>
+                      <div class="cat pull-right">
+                        <p><i class="fa fa-laptop" aria-hidden="true"></i> PC</p>
+                      </div>
+                      <div class="clearfix"></div>
+                    </div><!--END OF .FOOTER-MOST-POPULAR-->
+                  </div><!--END OF .TITLE-MOST-POPULAR-->
+                </div><!--END OF .WRAPPER-MOST-POPULAR-->
+              </div><!--END OF .SIDEBAR-MOST-POPULAR-->
+            </div><!--END OF .CONTENT-3-SIDEBAR-->
+
+            <div class="content-3-artikel col-md-8 col-sm-8">
+              <div class="artikel-top">
+                <div class="wrapper-artikel-left col-md-6 col-sm-6">
+                  <div class="artikel" id="artikel-1">
+                    <img class="img-responsive" src="images/002.jpg">
+                    <div class="title-artikel">
+                      <div class="heading-artikel">
+                        <a href="#"><h3>Lorem Ipsum is simply dummy text of the printing</h3></a>
+                      </div>
+                      <div class="footer-artikel">
+                        <div class="time pull-left">
+                          <p><i class="fa fa-clock-o" aria-hidden="true"></i> 5 ago</p>
+                        </div>
+                        <div class="cat pull-right">
+                          <p>News</p>
+                        </div>
+                        <div class="clearfix"></div>
+                      </div><!--END OF .FOOTER-ARTIKEL-->
+                    </div><!--END OF .TITLE-ARTIKEL-->
+                  </div><!--END OF .ARTIKEL-->
+                </div><!--END OF .WRAPPER-ARTIKEL-LEFT-->
+                <div class="wrapper-artikel-right col-md-6 col-sm-6">
+                  <div class="artikel" id="artikel-2">
+                    <img class="img-responsive" src="images/003.jpg">
+                    <div class="title-artikel">
+                      <div class="heading-artikel">
+                        <a href="#"><h3>Lorem Ipsum is simply dummy text of the printing</h3></a>
+                      </div>
+                      <div class="footer-artikel">
+                        <div class="time pull-left">
+                          <p><i class="fa fa-clock-o" aria-hidden="true"></i> 7 ago</p>
+                        </div>
+                        <div class="cat pull-right">
+                          <p>Artikel</p>
+                        </div>
+                        <div class="clearfix"></div>
+                      </div><!--END OF .FOOTER-ARTIKEL-->
+                    </div><!--END OF .TITLE-ARTIKEL-->
+                  </div><!--END OF .ARTIKEL-->
+                </div><!--END OF .WRAPPER-ARTIKEL-RIGHT-->
+                <div class="clearfix"></div>
+              </div><!--END OF .ARTIKEL-TOP-->
+
+              <div class="artikel-bot">
+                <div class="wrapper-artikel-left col-md-6 col-sm-6">
+                  <div class="artikel" id="artikel-3">
+                    <img class="img-responsive" src="images/004.jpg">
+                    <div class="title-artikel">
+                      <div class="heading-artikel">
+                        <a href="#"><h3>Lorem Ipsum is simply dummy text of the printing</h3></a>
+                      </div>
+                      <div class="footer-artikel">
+                        <div class="time pull-left">
+                          <p><i class="fa fa-clock-o" aria-hidden="true"></i> 14h ago</p>
+                        </div>
+                        <div class="cat pull-right">
+                          <p>Opini</p>
+                        </div>
+                        <div class="clearfix"></div>
+                      </div><!--END OF .FOOTER-ARTIKEL-->
+                    </div><!--END OF .TITLE-ARTIKEL-->
+                  </div><!--END OF .ARTIKEL-->
+                </div><!--END OF .WRAPPER-ARTIKEL-LEFT-->
+                <div class="wrapper-artikel-right col-md-6 col-sm-6">
+                  <div class="artikel" id="artikel-4">
+                    <img class="img-responsive" src="images/005.jpg">
+                    <div class="title-artikel">
+                      <div class="heading-artikel">
+                        <a href="#"><h3>Lorem Ipsum is simply dummy text of the printing</h3></a>
+                      </div>
+                      <div class="footer-artikel">
+                        <div class="time pull-left">
+                          <p><i class="fa fa-clock-o" aria-hidden="true"></i> 15h ago</p>
+                        </div>
+                        <div class="cat pull-right">
+                          <p>Artikel</p>
+                        </div>
+                        <div class="clearfix"></div>
+                      </div><!--END OF .FOOTER-ARTIKEL-->
+                    </div> <!--END OF .TITLE-ARTIKEL-->
+                  </div><!--END OF .ARTIKEL-->
+                </div><!--END OF .WRAPPER-ARTIKEL-RIGHT-->
+                <div class="clearfix"></div>
+              </div><!--END OF .ARTIKEL-BOT-->
+            </div><!--END OF .CONTENT-3-ARTIKEL-->
+            <div class="clearfix"></div>
+          </div><!--END OF .CONTENT-3-->
+
+          <div class="content-4">
+            <div class="wrapper-adv-left col-md-6 col-sm-6">
+              <div class="adv">
+                <img src="//www.indogamers.com/assets/images/468X60.png">
+              </div>
+            </div><!--END OF .WRAPPER-ADV-LEFT-->
+            <div class="wrapper-adv-right col-md-6 col-sm-6">
+              <div class="adv">
+                <img src="//www.indogamers.com/assets/images/468X60.png">
+              </div>
+            </div><!--END OF .WRAPPER-ADV-RIGHT-->
+            <div class="clearfix"></div>
+          </div><!--END OF .CONTENT-4-->
+
+          <div class="content-5">
+            <div class="content-5-artikel col-md-8 col-sm-8">
+                <div class="artikel-top">
+                <div class="wrapper-artikel-left col-md-6 col-sm-6">
+                  <div class="artikel" id="artikel-1">
+                    <img class="img-responsive" src="images/002.jpg">
+                    <div class="title-artikel">
+                      <div class="heading-artikel">
+                        <a href="#"><h3>Lorem Ipsum is simply dummy text of the printing</h3></a>
+                      </div>
+                      <div class="footer-artikel">
+                        <div class="time pull-left">
+                          <p><i class="fa fa-clock-o" aria-hidden="true"></i> 2d ago</p>
+                        </div>
+                        <div class="cat pull-right">
+                          <p>News</p>
+                        </div>
+                        <div class="clearfix"></div>
+                      </div><!--END OF .FOOTER-ARTIKEL-->
+                    </div><!--END OF .TITLE-ARTIKEL-->
+                  </div><!--END OF .ARTIKEL-->
+                </div><!--END OF .WRAPPER-ARTIKEL-LEFT-->
+                <div class="wrapper-artikel-right col-md-6 col-sm-6">
+                  <div class="artikel" id="artikel-2">
+                    <img class="img-responsive" src="images/003.jpg">
+                    <div class="title-artikel">
+                      <div class="heading-artikel">
+                        <a href="#"><h3>Lorem Ipsum is simply dummy text of the printing</h3></a>
+                      </div>
+                      <div class="footer-artikel">
+                        <div class="time pull-left">
+                          <p><i class="fa fa-clock-o" aria-hidden="true"></i> 2d ago</p>
+                        </div>
+                        <div class="cat pull-right">
+                          <p>Artikel</p>
+                        </div>
+                        <div class="clearfix"></div>
+                      </div><!--END OF .FOOTER-ARTIKEL-->
+                    </div><!--END OF .TITLE-ARTIKEL-->
+                  </div><!--END OF .ARTIKEL-->
+                </div><!--END OF .WRAPPER-ARTIKEL-RIGHT-->
+                <div class="clearfix"></div>
+              </div><!--END OF .ARTIKEL-TOP-->
+
+              <div class="artikel-bot">
+                <div class="wrapper-artikel-left col-md-6 col-sm-6">
+                  <div class="artikel" id="artikel-3">
+                    <img class="img-responsive" src="images/004.jpg">
+                    <div class="title-artikel">
+                      <div class="heading-artikel">
+                        <a href="#"><h3>Lorem Ipsum is simply dummy text of the printing</h3></a>
+                      </div>
+                      <div class="footer-artikel">
+                        <div class="time pull-left">
+                          <p><i class="fa fa-clock-o" aria-hidden="true"></i> 3d ago</p>
+                        </div>
+                        <div class="cat pull-right">
+                          <p>Artikel</p>
+                        </div>
+                        <div class="clearfix"></div>
+                      </div><!--END OF .FOOTER-ARTIKEL-->
+                    </div><!--END OF .TITLE-ARTIKEL-->
+                  </div><!--END OF .ARTIKEL-->
+                </div><!--END OF .WRAPPER-ARTIKEL-LEFT-->
+                <div class="wrapper-artikel-right col-md-6 col-sm-6">
+                  <div class="artikel" id="artikel-4">
+                    <img class="img-responsive" src="images/005.jpg">
+                    <div class="title-artikel">
+                      <div class="heading-artikel">
+                        <a href="#"><h3>Lorem Ipsum is simply dummy text of the printing</h3></a>
+                      </div>
+                      <div class="footer-artikel">
+                        <div class="time pull-left">
+                          <p><i class="fa fa-clock-o" aria-hidden="true"></i> 3d ago</p>
+                        </div>
+                        <div class="cat pull-right">
+                          <p>Opini</p>
+                        </div>
+                        <div class="clearfix"></div>
+                      </div><!--END OF .FOOTER-ARTIKEL-->
+                    </div> <!--END OF .TITLE-ARTIKEL-->
+                  </div><!--END OF .ARTIKEL-->
+                </div><!--END OF .WRAPPER-ARTIKEL-RIGHT-->
+                <div class="clearfix"></div>
+              </div><!--END OF .ARTIKEL-BOT-->
+            </div><!--END OF .CONTENT-5-ARTIKEL-->
+
+            <div class="content-5-sidebar col-md-4 col-sm-4">
+              <div class="store">
+                <h3>STORE INDOGAMERS</h3>
+              </div><!--END OF .STORE-->
+            </div><!--END OF .CONTENT-5-SIDEBAR-->
+            <div class="clearfix"></div>
+          </div><!--END OF .CONTENT-5-->
+
+          <div class="content-6">
+            <div class="wrapper-adv-left col-md-6 col-sm-6">
+              <div class="adv">
+               <img src="//www.indogamers.com/assets/images/468X60.png">
+              </div>
+            </div><!--END OF .WRAPPER-ADV-LEFT-->
+            <div class="wrapper-adv-right col-md-6 col-sm-6">
+              <div class="adv">
+                <img src="//www.indogamers.com/assets/images/468X60.png">
+              </div>
+            </div><!--END OF .WRAPPER-ADV-RIGHT-->
+            <div class="clearfix"></div>
+          </div><!--END OF .CONTENT-6-->
+
+          <div class="load-more">
+            <button class="btn btn-block btn-lg">
+              <p>LOAD MORE...</p>
+            </button>
+          </div><!--END OF .LOAD-MORE-->
+        </div>
+       </div><!--END OF .MIDSIDE-->
+
+      <div class="col-md-1 col-sm-1 rightside">
+        <div id="rightside">
+          <img src="http://www.indogamers.com/assets/images/120X600.png">
+        </div>
+      </div><!--END OF .RIGHTSIDE-->
+      <div class="clearfix"></div>
+    </div><!--END OF .BODY-CONTENT-->
+
+    <div class="body-content-gallery">
+      <div class="wrbody-content-gallery container">
+        <div class="leftside col-md-1"></div><!--END OF .LEFTSIDE-->
+
+        <div class="midside col-md-10">
+          <div class="video">
+            <div class="col-md-4 col-sm-4 video-list video-left">
+              <div class="wrapper-video">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/BWeFB00IuFE" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="title-video">
+                  <div class="heading">
+                    <a href="#">
+                      <h3>Lorem Ipsum is simply dummy text of the printing</h3>
+                    </a>
+                  </div><!--END OF .HEADING-->
+                  <div class="footer">
+                    <div class="time pull-left">
+                      <p>20m ago</p>
+                    </div>
+                    <div class="cat pull-right">
+                      <p><i class="fa fa-video-camera" aria-hidden="true"></i> Video</p>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div><!--END OF .FOOTER-->
+                </div><!--END OF .TITLE-VIDEO-->
+              </div><!--END OF .WRAPPER-VIDEO-->
+            </div><!--END OF .VIDEO-LIST-->
+            <div class="col-md-4 col-sm-4 video-list video-mid">
+               <div class="wrapper-video">
+                <div class="embed-responsive embed-responsive-16by9 mid-item">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/BWeFB00IuFE" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="title-video">
+                  <div class="heading">
+                    <a href="#">
+                      <h3>Lorem Ipsum is simply dummy text of the printing</h3>
+                    </a>
+                  </div><!--END OF .HEADING-->
+                  <div class="footer">
+                    <div class="time pull-left">
+                      <p>1h ago</p>
+                    </div>
+                    <div class="cat pull-right">
+                      <p><i class="fa fa-video-camera" aria-hidden="true"></i> Video</p>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div><!--END OF .FOOTER-->
+                </div><!--END OF .TITLE-VIDEO-->
+              </div><!--END OF .WRAPPER-VIDEO-->
+            </div><!--END OF .VIDEO-LIST-->
+            <div class="col-md-4 col-sm-4 video-list video-right">
+              <div class="wrapper-video">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/BWeFB00IuFE" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="title-video">
+                  <div class="heading">
+                    <a href="#">
+                      <h3>Lorem Ipsum is simply dummy text of the printing</h3>
+                    </a>
+                  </div><!--END OF .HEADING-->
+                  <div class="footer">
+                    <div class="time pull-left">
+                      <p>2h ago</p>
+                    </div>
+                    <div class="cat pull-right">
+                      <p><i class="fa fa-video-camera" aria-hidden="true"></i> Video</p>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div><!--END OF .FOOTER-->
+                </div><!--END OF .TITLE-VIDEO-->
+              </div><!--END OF .WRAPPER-VIDEO-->
+            </div><!--END OF .VIDEO-LIST-->
+            <div class="clearfix"></div>
+          </div><!--END OF .VIDEO-->
+
+          <div class="image">
+            <div class="col-md-4 col-sm-4 image-list image-left">
+              <div class="wrapper-img">
+                <img class="img-responsive" src="images/002.jpg">
+                <div class="title-image">
+                  <div class="heading">
+                    <a href="#">
+                      <h3>Lorem Ipsum is simply dummy text of the printing</h3>
+                    </a>
+                  </div><!--END OF .HEADING-->
+                  <div class="footer">
+                    <div class="time pull-left">
+                      <p>10m ago</p>
+                    </div>
+                    <div class="cat pull-right">
+                      <p><i class="fa fa-image" aria-hidden="true"></i> Image</p>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div><!--END OF .FOOTER-->
+                </div><!--END OF .TITLE-->
+              </div><!--END OF .WRAPPER-IMG-->
+            </div><!--END OF .IMAGE-LIST-->
+            <div class="col-md-4 col-sm-4 image-list image-mid">
+              <div class="wrapper-img">
+                <img class="img-responsive" src="images/005.jpg">
+                <div class="title-image">
+                  <div class="heading">
+                    <a href="#">
+                      <h3>Lorem Ipsum is simply dummy text of the printing</h3>
+                    </a>
+                  </div><!--END OF .HEADING-->
+                  <div class="footer">
+                    <div class="time pull-left">
+                      <p>30m ago</p>
+                    </div>
+                    <div class="cat pull-right">
+                      <p><i class="fa fa-image" aria-hidden="true"></i> Image</p>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div><!--END OF .FOOTER-->
+                </div><!--END OF .TITLE-->
+              </div><!--END OF .WRAPPER-IMG-->
+            </div><!--END OF .IMAGE-LIST-->
+            <div class="col-md-4 col-sm-4 image-list image-right">
+              <div class="wrapper-img">
+                <img class="img-responsive" src="images/003.jpg">
+                <div class="title-image">
+                  <div class="heading">
+                    <a href="#">
+                      <h3>Lorem Ipsum is simply dummy text of the printing</h3>
+                    </a>
+                  </div><!--END OF .HEADING-->
+                  <div class="footer">
+                    <div class="time pull-left">
+                      <p>1h20m ago</p>
+                    </div>
+                    <div class="cat pull-right">
+                      <p><i class="fa fa-image" aria-hidden="true"></i> Image</p>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div><!--END OF .FOOTER-->
+                </div><!--END OF .TITLE-->
+              </div><!--END OF .WRAPPER-IMG-->
+            </div><!--END OF .IMAGE-LIST-->
+            <div class="clearfix"></div>
+          </div><!--END OF .IMAGE-->
+
+          <div class="load-more">
+            <button class="btn btn-block btn-lg">
+              <p>LOAD MORE...</p>
+            </button>
+          </div><!--END OF .LOAD-MORE-->
+        </div><!--END OF .MIDSIDE-->
+
+        <div class="rightside col-md-1"></div><!--END OF .RIGHTSIDE-->
+        <div class="clearfix"></div>
+      </div><!--END OF .WRBODY-CONTENT-GALLERY-->
+    </div><!--END OF .BODY-CONTENT-GALLERY-->
+
+    <div class="footer-body">
+      <div class="wrapper-footer container">
+        <div class="leftside col-md-1 col-sm-1"></div>
+
+        <div class="midside col-md-10 col-sm-10">
+          <div class="about col-md-4 col-sm-4">
+            <div class="wrapper-about">
+              <div class="logo">
+                <img src="images/logo-footer.png">
+              </div>
+              <div class="address">
+                <p>Rukan Duren Tiga Blok 7K</p> 
+                <p>Jl. Duren Tiga Raya No. 7</p> 
+                <p>Jakarta Selatan, 12760</p>
+              </div>
+              <div class="contact">
+                <table>
+                  <tr>
+                    <td>
+                      <p><span>(SMS)</span> & Telp.IDGS CS</p>
+                    </td>
+                    <td>
+                      <p>: 081310422996</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p><span>(SMS)</span> & Telp.IDGS</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>HQ</p>
+                    </td>
+                    <td>
+                      <p>: 085100893282</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Telp.Partnership</p>
+                    </td>
+                    <td>
+                      <p>: 085100893282</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p><i class="fa fa-whatsapp" aria-hidden="true"></i> Whatsapp</p>
+                    </td>
+                    <td>
+                      <p>: 085100893282</p>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <div class="medsos">
+                <table>
+                  <tr>
+                    <td>
+                      <a href="#" class="fb"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </td>
+                    <td>
+                      <a href="#" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </td>
+                    <td>
+                      <a href="#" class="gplus"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                    </td>
+                    <td>
+                      <a href="#" class="ytube"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                    </td>
+                    <td>
+                      <a href="#" class="skype"><i class="fa fa-skype" aria-hidden="true"></i></a>
+                    </td>
+                    <td>
+                      <a href="#" class="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    </td>
+                    <td>
+                      <a href="#" class="ig"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </td>
+                    <td>
+                      <a href="#" class="path"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div><!--END OF .WRAPPER-ABOUT-->
+          </div><!--END OF .ABOUT-->
+          
+          <div class="footer-menu col-md-8 col-sm-8">
+            <table class="list-menu">
+              <tr>
+                <th>
+                  <h4>Category</h4>
+                </th>
+                <th>
+                  <h4>Games</h4>
+                </th>
+                <th>
+                  <h4>Video</h4>
+                </th>
+                <th>
+                  <h4>Images</h4>
+                </th>
+                <th>
+                  <h4>Download</h4>
+                </th>
+              </tr>
+              <tr>
+                <td>
+                  <a href="#">News</a>
+                </td>
+                <td>
+                  <a href="#">DOTA IDGS</a>
+                </td>
+                <td>
+                  <a href="#">Event</a>
+                </td>
+                <td>
+                  <a href="#">Offline Games</a>
+                </td>
+                <td>
+                  <a href="#">Server File</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="#">Gadget</a>
+                </td>
+                <td>
+                  <a href="#">WOW IDGS</a>
+                </td>
+                <td>
+                  <a href="#">Gameplay</a>
+                </td>
+                <td>
+                  <a href="#">Online Games</a>
+                </td>
+                <td>
+                  <a href="#">Client Game</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="#">Mobile Games</a>
+                </td>
+                <td>
+                  <a href="#">Aion IDGS</a>
+                </td>
+                <td>
+                  <a href="#">IDGS</a>
+                </td>
+                <td>
+                  <a href="#">Event</a>
+                </td>
+                <td>
+                  <a href="#">IDGS Ware</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="#">Console</a>
+                </td>
+                <td>
+                  <a href="#">Web Games</a>
+                </td>
+                <td>
+                  <a href="#">Unboxing & Review</a>
+                </td>
+                <td>
+                  <a href="#">Booth Babes</a>
+                </td>
+                <td>
+                  <a href="#">Addon Game</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="#">PC</a>
+                </td>
+                <td></td>
+                <td>
+                  <a href="#">Show Off</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="#">Event</a>
+                </td>
+                <td></td>
+                <td>
+                  <a href="#">Trailer Games</a>
+                </td>
+              </tr>
+            </table>
+          </div><!--END OF .FOOTER-MENU-->
+        </div><!--END OF .MIDSIDE-->
+        
+        <div class="rightside col-md-1 col-sm-1"></div>
+      </div><!--END OF .WRAPPER-FOOTER-->
+    </div><!--END OF .FOOTER-BODY-->
+
+    <div class="footer-copyright">
+      <div class="wrfooter-copyright container">
+        <div class="col-md-1 col-sm-1"></div>
+        <div class="midside col-md-10 col-sm-10 text-center">
+          <small> IDGS &copy; 2017 - All Right Reserved </small>
+        </div>
+        <div class="col-md-1 col-sm-1"></div>
+      </div><!--END OF .WRFOOTER-COPYRIGHT-->
+    </div><!--END OF .FOOTER-COPYRIGHT-->
+
+
+    <script type="text/javascript">
+
+    // script untuk scroll
+    $(document).ready(function() {
+        
+      // Menentukan elemen yang dijadikan sticky yaitu #cat-menu
+      var element = $('.leftside, .rightside').offset().top; 
+      var menu = $('#cat-menu').offset().top;
+      var stickyNav = function(){
+      var scrolltop = $(window).scrollTop();  
+          
+        // Kondisi jika discroll maka #cat-menu ditambahkan class sticky dan sebaliknya		
+        if (scrolltop > menu) {
+          $('#cat-menu').css({ 'position': 'fixed', 'top': 0, 'width': 955, 'box-shadow': '$shadow-adv', 'z-index': 999 }); 
+        } else {
+          $('#cat-menu').css({ 'position': 'relative' });
+        }
+
+        if (scrolltop > element) {
+          $('#leftside').css({'position': 'fixed', 'top': 0});
+          $('#rightside').css({'position': 'fixed', 'top': 0});
+        } else {
+          $('#leftside').css({'position': 'relative'});
+          $('#rightside').css({'position': 'relative'});
+        }
+      };
+        
+      // Jalankan fungsi stickyNav
+      stickyNav();
+      $(window).scroll(function() {
+        stickyNav();
+      });
+    });
+
+
+    // script untuk dropdown menu #menu-idgs
+    $(document).ready(function(){
+      $('#menu-idgs').hover(function(){
+        $('.dropdown-menu#idgs').animate({height: 'show'});
+        }, function(){
+        $('.dropdown-menu#idgs').animate({height: 'hide'});
+      });
+    });
+
+
+    // script untuk dropdown menu #menu-forum
+    $(document).ready(function(){
+      $('#menu-forum').hover(function(){
+        $('.dropdown-menu#forum').animate({height: 'show'});
+        }, function(){
+        $('.dropdown-menu#forum').animate({height: 'hide'});
+      });
+    });
+
+
+    // script untuk dropdown menu #menu-games
+    $(document).ready(function(){
+      $('#menu-games').hover(function(){
+        $('.dropdown-menu#games').animate({height: 'show'});
+        }, function(){
+        $('.dropdown-menu#games').animate({height: 'hide'});
+      });
+    });
+
+
+    // script untuk slideshow jssor
+    jQuery(document).ready(function ($) {
+
+            var jssor_1_options = {
+              $AutoPlay: 1,
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $ThumbnailNavigatorOptions: {
+                $Class: $JssorThumbnailNavigator$,
+                $Cols: 4,
+                $SpacingX: 4,
+                $SpacingY: 4,
+                $Orientation: 2,
+                $Align: 0
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*responsive code begin*/
+            /*remove responsive code if you don't want the slider scales while window resizing*/
+            function ScaleSlider() {
+                var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+                if (refSize) {
+                    refSize = Math.min(refSize, 955);
+                    jssor_1_slider.$ScaleWidth(refSize);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+            ScaleSlider();
+            $(window).bind("load", ScaleSlider);
+            $(window).bind("resize", ScaleSlider);
+            $(window).bind("orientationchange", ScaleSlider);
+            /*responsive code end*/
+        });
+    </script>
+
+  </body>
+</html>
