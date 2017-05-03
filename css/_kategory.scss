@@ -34,6 +34,7 @@
         .content-left {
             .wr-content-left {
                 background-color: #fff;
+                box-shadow: $shadow-box;
             }
             .wr-content-left:hover {
                 box-shadow: $shadow-artikel;
@@ -76,41 +77,24 @@
         .content-right {
             #sidebar-1, #sidebar-2, #sidebar-3, #sidebar-4 {
                 border-top: 5px solid $grey;
+                border-bottom: 5px solid rgba(41, 42, 50, .5);
             }
             .sidebar-adv:hover, .artikel:hover {
                 box-shadow: $shadow-artikel;
             }
             .sidebar-adv {
                 .wrapper-adv {
-                    img {
-                        width: 313.333px;
-                        height: 156.667px;
-                    }
-                    .title-adv {
-                        padding: 0px 10px;
-                    }
-                    .heading-adv {
-                        a:hover {
-                            text-decoration: none;
-                            text-shadow: $shadow-text;
-                        }
-                        h3 {
-                            margin: 0px;
-                            color: $black;
-                        }
-                        margin: 20px 0px;
-                    }
-                    .footer-adv {
-                        p {
-                            color: $grey;
-                        }
-                    }
+                    padding: 13px 7px;
                 }
                 margin-bottom: 10px;
                 background-color: #fff;
+                box-shadow: $shadow-box;
             }
 
             .artikel {
+                img {
+                    height: 176.867px;
+                }
                 .title-artikel {
                     .heading-artikel {
                         a:hover {
@@ -122,6 +106,7 @@
                             color: $black;
                         }
                         margin: 20px 0px;
+                        height: 79px;
                     }
                     .footer-artikel {
                         color: $grey;
@@ -130,6 +115,7 @@
                 }
                 background-color: #fff;
                 margin-bottom: 10px;
+                box-shadow: $shadow-box;
             }
             padding-right: 0px;
             padding-left: 5px;

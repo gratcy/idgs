@@ -34,6 +34,7 @@
             }
             padding: 10px 15px;
             background-color: #fff;
+            box-shadow: $shadow-box;
         }
         .wr-artikel-full:hover {
             box-shadow: $shadow-artikel;
@@ -45,25 +46,14 @@
             padding-right: 0px;
         }
         .advertise {
-            .title-adv {
-                .heading-adv {
-                    a:hover {
-                        text-decoration: none;
-                        text-shadow: $shadow-text;
-                    }
-                    h3 {
-                        margin: 0px;
-                        color: $black;
-                    }
-                    margin: 20px 0px;
-                }
-                .footer-adv {
-                    color: $grey;
-                }
-                padding: 0px 10px;
+            .wrapper-adv {
+                padding: 13px 7px;
             }
             background-color: #fff;
             margin-bottom: 10px;
+            box-shadow: $shadow-box;
+            border-top: 5px solid $grey;
+            border-bottom: 5px solid rgba(41, 42, 50, .5);
         }
         .advertise:hover {
             box-shadow: $shadow-artikel;
