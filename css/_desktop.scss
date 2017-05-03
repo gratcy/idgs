@@ -21,6 +21,9 @@ body {
         width: 1220px;
         margin: auto;
     }
+    h3 {
+        font-size:22px;
+    }
     background: #eaeaea url("../images/bg.jpeg") repeat;
 }
 
@@ -789,7 +792,6 @@ body {
         }
         padding: 0px;
     }
-    background-color: $grey;
     padding: 10px 0px;
 }
 

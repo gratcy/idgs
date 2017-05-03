@@ -9,6 +9,8 @@ body {
   body .container-custom {
     width: 1220px;
     margin: auto; }
+  body h3 {
+    font-size: 22px; }
 
 .header-menu {
   height: 40px;
@@ -523,7 +525,6 @@ body {
       box-shadow: 3px 3px 5px rgba(41, 42, 50, 0.6); }
 
 .body-content-gallery {
-  background-color: #b6b6b6;
   padding: 10px 0px; }
   .body-content-gallery .wrbody-content-gallery {
     padding: 0px; }
