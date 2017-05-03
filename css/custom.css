@@ -2,15 +2,14 @@ body {
   background: #eaeaea url("../images/bg.jpeg") repeat; }
   body h1, body h2, body h3 {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 600; }
+    font-weight: 600;
+    font-size: 20px; }
   body h4, body h5, body h6 {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 300; }
+    font-weight: 400; }
   body .container-custom {
     width: 1220px;
     margin: auto; }
-  body h3 {
-    font-size: 22px; }
 
 .header-menu {
   height: 40px;
@@ -249,7 +248,7 @@ body {
             color: #292a32;
             margin: 0px; }
           .body-content #midside .content-1 .artikel .title-artikel h3:hover {
-            text-shadow: 2px 2px 2px rgba(41, 42, 50, 0.3); }
+            text-shadow: 2px 2px 2px rgba(41, 42, 50, 0.6); }
           .body-content #midside .content-1 .artikel .title-artikel a:hover {
             text-decoration: none; }
         .body-content #midside .content-1 .artikel .heading-artikel {
@@ -282,7 +281,7 @@ body {
               color: #292a32;
               margin: 0px; }
             .body-content #midside .content-1 .content-1-sidebar .sidebar-topik-pilihan .wrapper-topik .title-topik h3:hover {
-              text-shadow: 2px 2px 2px rgba(41, 42, 50, 0.3); }
+              text-shadow: 2px 2px 2px rgba(41, 42, 50, 0.6); }
             .body-content #midside .content-1 .content-1-sidebar .sidebar-topik-pilihan .wrapper-topik .title-topik a {
               height: 116px; }
             .body-content #midside .content-1 .content-1-sidebar .sidebar-topik-pilihan .wrapper-topik .title-topik a:hover {
@@ -334,7 +333,7 @@ body {
               color: #292a32;
               margin: 0px; }
             .body-content #midside .content-3 .content-3-sidebar .wrapper-latest-post .title-latest-post h3:hover {
-              text-shadow: 2px 2px 2px rgba(41, 42, 50, 0.3); }
+              text-shadow: 2px 2px 2px rgba(41, 42, 50, 0.6); }
             .body-content #midside .content-3 .content-3-sidebar .wrapper-latest-post .title-latest-post a:hover {
               text-decoration: none; }
           .body-content #midside .content-3 .content-3-sidebar .wrapper-latest-post .heading-latest-post {
@@ -356,7 +355,7 @@ body {
               color: #292a32;
               margin: 0px; }
             .body-content #midside .content-3 .content-3-sidebar .sidebar-most-popular .wrapper-most-popular .title-most-popular h3:hover {
-              text-shadow: 2px 2px 2px rgba(41, 42, 50, 0.3); }
+              text-shadow: 2px 2px 2px rgba(41, 42, 50, 0.6); }
             .body-content #midside .content-3 .content-3-sidebar .sidebar-most-popular .wrapper-most-popular .title-most-popular a {
               height: 116px; }
             .body-content #midside .content-3 .content-3-sidebar .sidebar-most-popular .wrapper-most-popular .title-most-popular a:hover {
@@ -398,7 +397,7 @@ body {
               color: #292a32;
               margin: 0px; }
             .body-content #midside .content-3 .content-3-artikel .artikel .title-artikel h3:hover {
-              text-shadow: 2px 2px 2px rgba(41, 42, 50, 0.3); }
+              text-shadow: 2px 2px 2px rgba(41, 42, 50, 0.6); }
             .body-content #midside .content-3 .content-3-artikel .artikel .title-artikel a:hover {
               text-decoration: none; }
           .body-content #midside .content-3 .content-3-artikel .artikel .heading-artikel {
@@ -455,7 +454,7 @@ body {
               color: #292a32;
               margin: 0px; }
             .body-content #midside .content-5 .content-5-artikel .artikel .title-artikel h3:hover {
-              text-shadow: 2px 2px 2px rgba(41, 42, 50, 0.3); }
+              text-shadow: 2px 2px 2px rgba(41, 42, 50, 0.6); }
             .body-content #midside .content-5 .content-5-artikel .artikel .title-artikel a:hover {
               text-decoration: none; }
           .body-content #midside .content-5 .content-5-artikel .artikel .heading-artikel {
@@ -470,7 +469,7 @@ body {
               color: #292a32;
               margin: 0px; }
             .body-content #midside .content-5 .content-5-artikel .artikel-bot .artikel-3 .title-artikel h3:hover, .body-content #midside .content-5 .content-5-artikel .artikel-bot .artikel-4 .title-artikel h3:hover {
-              text-shadow: 2px 2px 2px rgba(41, 42, 50, 0.3); }
+              text-shadow: 2px 2px 2px rgba(41, 42, 50, 0.6); }
             .body-content #midside .content-5 .content-5-artikel .artikel-bot .artikel-3 .title-artikel a:hover, .body-content #midside .content-5 .content-5-artikel .artikel-bot .artikel-4 .title-artikel a:hover {
               text-decoration: none; }
           .body-content #midside .content-5 .content-5-artikel .artikel-bot .artikel-3 .heading-artikel, .body-content #midside .content-5 .content-5-artikel .artikel-bot .artikel-4 .heading-artikel {
@@ -550,7 +549,7 @@ body {
                 color: #292a32;
                 margin: 0px; }
               .body-content-gallery .wrbody-content-gallery .midside .video .video-list .title-video .heading h3:hover {
-                text-shadow: 2px 2px 2px rgba(41, 42, 50, 0.3); }
+                text-shadow: 2px 2px 2px rgba(41, 42, 50, 0.6); }
               .body-content-gallery .wrbody-content-gallery .midside .video .video-list .title-video .heading a:hover {
                 text-decoration: none; }
             .body-content-gallery .wrbody-content-gallery .midside .video .video-list .title-video .footer {
@@ -584,7 +583,7 @@ body {
                   margin: 0px;
                   color: #292a32; }
                 .body-content-gallery .wrbody-content-gallery .midside .image .image-list .wrapper-img .title-image .heading h3:hover {
-                  text-shadow: 2px 2px 2px rgba(41, 42, 50, 0.3); }
+                  text-shadow: 2px 2px 2px rgba(41, 42, 50, 0.6); }
                 .body-content-gallery .wrbody-content-gallery .midside .image .image-list .wrapper-img .title-image .heading a:hover {
                   text-decoration: none; }
               .body-content-gallery .wrbody-content-gallery .midside .image .image-list .wrapper-img .title-image .footer {
@@ -723,7 +722,7 @@ body {
       padding-left: 5px; }
       .kategory .content-cat .content-left .artikel .title a:hover {
         text-decoration: none;
-        text-shadow: 2px 2px 2px rgba(41, 42, 50, 0.3); }
+        text-shadow: 2px 2px 2px rgba(41, 42, 50, 0.6); }
       .kategory .content-cat .content-left .artikel .title h3 {
         margin-top: 0px;
         color: #292a32; }
@@ -759,7 +758,7 @@ body {
         height: 79px; }
         .kategory .content-cat .content-right .artikel .title-artikel .heading-artikel a:hover {
           text-decoration: none;
-          text-shadow: 2px 2px 2px rgba(41, 42, 50, 0.3); }
+          text-shadow: 2px 2px 2px rgba(41, 42, 50, 0.6); }
         .kategory .content-cat .content-right .artikel .title-artikel .heading-artikel h3 {
           margin: 0px;
           color: #292a32; }

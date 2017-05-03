@@ -4,7 +4,7 @@ $black : #292a32;
 $grey : #b6b6b6;
 $shadow-btn : 3px 3px 3px rgba(41, 42, 50, .5);
 $shadow-adv : 3px 3px 5px rgba(41, 42, 50, .6);
-$shadow-text : 2px 2px 2px rgba(41, 42, 50, .3);
+$shadow-text : 2px 2px 2px rgba(41, 42, 50, .6);
 $shadow-artikel : 3px 3px 5px rgba(41, 42, 50, .4);
 $shadow-box: 2px 2px 3px rgba(41, 42, 50, .4);
 
@@ -12,18 +12,17 @@ body {
     h1, h2, h3 {
         font-family: 'Open Sans', sans-serif;
         font-weight: 600;
+        font-size:20px;
     }
     h4, h5, h6 {
         font-family: 'Open Sans', sans-serif;
-        font-weight: 300;
+        font-weight: 400;
     }
     .container-custom {
         width: 1220px;
         margin: auto;
     }
-    h3 {
-        font-size:22px;
-    }
+    
     background: #eaeaea url("../images/bg.jpeg") repeat;
 }
 
@@ -792,6 +791,7 @@ body {
         }
         padding: 0px;
     }
+    
     padding: 10px 0px;
 }
 

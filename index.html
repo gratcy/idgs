@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Indogamers - One Stop Solution, Gamers Destination</title>
+    <title>Indogamers</title>
 
     <!-- CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -985,30 +985,29 @@
 
     // script untuk dropdown menu #menu-idgs
     $(document).ready(function(){
-      $('#menu-idgs').hover(function(){
-        $('.dropdown-menu#idgs').animate({height: 'show'});
+      $('#menu-idgs').click(function(){
+        $('.dropdown-menu#idgs').fadeToggle(300);
         }, function(){
-        $('.dropdown-menu#idgs').animate({height: 'hide'});
+        $('.dropdown-menu#idgs').fadeToggle(300);
       });
     });
 
-
     // script untuk dropdown menu #menu-forum
     $(document).ready(function(){
-      $('#menu-forum').hover(function(){
-        $('.dropdown-menu#forum').animate({height: 'show'});
+      $('#menu-forum').click(function(){
+        $('.dropdown-menu#forum').fadeToggle(300);
         }, function(){
-        $('.dropdown-menu#forum').animate({height: 'hide'});
+        $('.dropdown-menu#forum').fadeToggle(300);
       });
     });
 
 
     // script untuk dropdown menu #menu-games
     $(document).ready(function(){
-      $('#menu-games').hover(function(){
-        $('.dropdown-menu#games').animate({height: 'show'});
+      $('#menu-games').click(function(){
+        $('.dropdown-menu#games').fadeToggle(300);
         }, function(){
-        $('.dropdown-menu#games').animate({height: 'hide'});
+        $('.dropdown-menu#games').fadeToggle(300);
       });
     });
 
